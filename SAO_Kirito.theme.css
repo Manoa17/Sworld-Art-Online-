@@ -1,0 +1,45 @@
+/**
+ * @name SAO Kirito
+ * @author Manoa17
+ * @version 1.2.5
+ * @description A theme with Kirito in SAO(Sworld Art Online)
+ */
+ 
+/* SETTINGS */
+@import url('https://github.com/Manoa17/SAO_Kirito.git')
+
+@import url('https://github.com/Manoa17/SAO_Sworld');
+:root{
+  /* ACCENT COLORS */
+  --main-color: #2780e6; /* main accent color (hex, rgb or hsl) [default: #2780e6] */
+  --hover-color: #1e63b3; /* hover accent color (hex, rgb or hsl) [default: #1e63b3] */
+  --success-color: #43b581; /* success accent color (hex, rgb or hsl) [default: #43b581] */
+  --danger-color: #00aeff; /* danger accent color (hex, rgb or hsl) [default: #982929] */
+  --url-color: var(--main-color); /*The color of url links [default: var(--main-color)]*/
+
+  /* APP BACKGROUND */
+  --background: url('https://images8.alphacoders.com/632/632051.png');
+  --activetext-colour: rgb(255, 255, 255);
+  --primary1-colour: rgb(255, 0, 0);
+  --primary2-colour: rgba(255, 0, 0, 0.637);
+  --primary3-colour: rgba(0, 0, 0, 0.6);
+  --secondary1-colour: rgba(255, 0, 0, 0.3);
+  --secondary2-colour: rgba(3, 3, 3, 0.5);
+  --secondary3-colour: rgba(0, 0, 0, 0.5);
+  --transparency-1: linear-gradient(to right, rgb(0, 0, 0),    rgba(0, 0, 0, 0.5));
+  --transparency-2: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  --transparency-3: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  --transparency-4: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.521));
+  --transparency-5: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+
+  /* CHANNEL COLORS */
+  --channel-unread: var(--main-color); /* Unread Server channel color. [default:  var(--main-color)] THIS OVERRIDES YOUR MAIN COLOR*/
+  --channel-color: rgba(255, 255, 255, 0.3); /*Read Server channel color  [default: rgba(255,255,255,0.3);]*/
+  --channel-text-selected: rgb(255, 8, 8); /* Selected channel text color, CV default is #fff */
+  --muted-color: rgba(255, 255, 255, 0.1); /*Muted channel color  [default: rgba(255,255,255,0.1);]*/
+
+  /* THEME BD COLORS */
+  --bd-blue: var(--main-color); /* betterdiscord main color [default: var(--main-color)] */
+  --bd-blue-hover: var(--hover-color); /* betterdiscord hover color [default: var(--hover-color)] */
+  --bd-blue-active: var(--hover-color); /* betterdiscord active color [default: var(--hover-color)] */
+}  
